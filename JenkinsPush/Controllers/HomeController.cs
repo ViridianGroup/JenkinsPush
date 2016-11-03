@@ -15,7 +15,7 @@ namespace JenkinsPush.Controllers
         public ActionResult Index()
         {
             HomeViewModel model = new HomeViewModel("I am the header", "And i am the body");
-            return View(model);
+            return View(models);
         }
 
     }
